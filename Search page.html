@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KshTube - Search</title>
+    <link rel="stylesheet" href="searchpage-style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="hover.css">
+        </link>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <a href="homepage.html">
+                <img class ="main-logo" src="img/site-logo.jpg">
+            </a>    
+        </ul>
+        <h2> KshTube </h2>
+        <p class="about">About<br> us</p>
+    </nav>
+    <div class="search-box">
+                <input type="text" class="search-bar" placeholder="search">
+                <button class="search-btn hvr-fade" id="searchbutton"><img src="img/search.PNG" alt=""></button>
+    </div>
+        <div class="sm-icons">
+            <button><i class="fa-brands fa-square-facebook fa-2x"></i></button>
+            <button><i class="fa-brands fa-square-instagram fa-2x"></i></button>
+            <button><i class="fa-brands fa-discord fa-2x"></i></button>
+        </div>
+<script type="text/javascript">
+    document.getElementById("searchbutton").onclick = function () 
+    {
+        location.href = "You Searched for.html";
+    };
+</script>
+</body>
+</html>
